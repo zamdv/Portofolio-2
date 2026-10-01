@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nizam | Backend Developer & SMK Student</title>
+    <meta name="description" content="Portofolio Nizam, Siswa SMK Kelas 11 yang berfokus pada Backend Development, REST API, Database Management, dan Server-side Programming.">
+    <meta name="keywords" content="Backend Developer, PHP, Laravel, Node.js, MySQL, REST API, SMK RPL, Portofolio">
+    <meta name="author" content="Nizam">
+    
+    <!-- Open Graph / Social Media Preview -->
+    <meta property="og:title" content="Nizam | Backend Developer Portfolio">
+    <meta property="og:description" content="Membangun sistem backend yang cepat, aman, dan scalable.">
+    <meta property="og:type" content="website">
+    
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="loader-spinner"></div>
+        <p class="loader-text">Initializing Backend...</p>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#home" class="logo">[/>nizam<span>.</span>]</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" id="mobile-menu" aria-label="Toggle Menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <div class="hero-label">
+                    <i class="fa-solid fa-terminal"></i> BACKEND STUDENT • SMK XI RPL
+                </div>
+                <h3>Hello, It's Me</h3>
+                <h1>Nizam</h1>
+                <div class="typing-text">I'm a <span></span></div>
+                <p>Saya membangun backend yang cepat, aman, dan scalable menggunakan API, database, serta server-side technologies. Fokus saya adalah menciptakan logika sistem yang stabil, terstruktur, dan mampu mendukung aplikasi secara efisien.</p>
+                
+                <div class="social-icons">
+                    <a href="https://github.com/zamdv" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:miftakhulnizamramadhan@email.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn"><i class="fa-solid fa-paper-plane"></i> Hubungi Saya</a>
+                    <a href="#portfolio" class="btn btn-outline"><i class="fa-solid fa-code"></i> Lihat Project</a>
+                </div>
+            </div>
+            
+            <div class="home-img">
+                <!-- Ganti src dengan foto asli Anda -->
+                <img src="assets/img/profile.jpg" alt="Foto Profil Nizam">
+                <div class="code-card">
+                    <span>const</span> developer = {<br>
+                    &nbsp;&nbsp;name: <span>"Nizam"</span>,<br>
+                    &nbsp;&nbsp;role: <span>"Backend"</span>,<br>
+                    &nbsp;&nbsp;stack: [<span>"PHP"</span>, <span>"Node"</span>]<br>
+                    };
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about" id="about">
+            <h2 class="heading reveal">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-img reveal">
+                    <!-- Ganti src dengan foto lain atau ilustrasi -->
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=500&fit=crop" alt="Ilustrasi Coding">
+                </div>
+                <div class="about-text reveal">
+                    <h3>Backend Student & IT Learner</h3>
+                    <p>Saya adalah siswa SMK Kelas 11 jurusan Rekayasa Perangkat Lunak (RPL) yang memiliki passion mendalam di bidang <strong>Backend Development</strong>. Saya tertarik pada cara kerja sistem di balik layar, mulai dari merancang database relasional, membangun REST API, hingga mengelola server.</p>
+                    <p>Saya senang memecahkan masalah logika, mengoptimalkan query database, dan memastikan data mengalir dengan aman dari server ke client. Saat ini saya sedang mendalami <strong>Laravel, Node.js (Express), dan MySQL</strong>.</p>
+                    
+                    <div class="info-box">
+                        <div class="info-item">
+                            <i class="fa-solid fa-crosshairs"></i>
+                            <div>
+                                <h4>Focus</h4>
+                                <p>Backend & API</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <div>
+                                <h4>Projects</h4>
+                                <p>REST API & CRUD</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-database"></i>
+                            <div>
+                                <h4>Database</h4>
+                                <p>MySQL & PostgreSQL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn"><i class="fa-solid fa-download"></i> Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services" id="services">
+            <h2 class="heading reveal">My <span>Services</span></h2>
+            <div class="services-container">
+                <div class="service-box reveal">
+                    <i class="fa-solid fa-plug"></i>
+                    <h3>REST API Development</h3>
+                    <p>Membangun RESTful API yang terstruktur, menggunakan metode HTTP yang tepat, status codes, dan format JSON untuk komunikasi frontend-backend yang efisien.</p>
+                    <a href="#portfolio" class="btn btn-outline">View Work</a>
+                </div>
+                <div class="service-box reveal">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Database Design</h3>
+                    <p>Mendesain skema database relasional (ERD), normalisasi tabel, menulis complex queries, dan mengoptimalkan indexing untuk performa aplikasi.</p>
+                    <a href="#skills" class="btn btn-outline">My Skills</a>
+                </div>
+                <div class="service-box reveal">
+                    <i class="fa-solid fa-server"></i>
+                    <h3>Backend Logic & Auth</h3>
+                    <p>Mengembangkan logika bisnis aplikasi, sistem autentikasi (JWT/Session), role management, dan integrasi pihak ketiga (Third-party API).</p>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills" id="skills">
+            <h2 class="heading reveal">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skills-column reveal">
+                    <h3><i class="fa-solid fa-code"></i> Backend & Programming</h3>
+                    <div class="skill-box">
+                        <div class="skill-info"><span>PHP / Laravel</span><span>85%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-info"><span>JavaScript / Node.js</span><span>80%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-info"><span>MySQL / Database</span><span>85%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-info"><span>REST API Design</span><span>50%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-progress="50"></div></div>
+                    </div>
+                </div>
+                <div class="skills-column reveal">
+                    <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools & Technologies</h3>
+                    <div class="tech-stack">
+                        <div class="tech-item"><i class="fa-brands fa-php"></i> PHP</div>
+                        <div class="tech-item"><i class="fa-brands fa-node-js"></i> Node.js</div>
+                        <div class="tech-item"><i class="fa-solid fa-database"></i> MySQL</div>
+                        <div class="tech-item"><i class="fa-brands fa-git-alt"></i> Git & GitHub</div>
+                        <div class="tech-item"><i class="fa-brands fa-linux "></i> Linux Basic</div>
+                        <div class="tech-item"><i class="fa-solid fa-plug"></i> Postman</div>
+                        <div class="tech-item"><i class="fa-solid fa-terminal"></i> CLI / Terminal</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION & CERTIFICATIONS -->
+        <section class="education" id="education">
+            <h2 class="heading reveal">Education & <span>Journey</span></h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">2023 - 2025</div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>SMKN 8 JEMBER</h3>
+                        <h4>Rekayasa Perangkat Lunak (RPL)</h4>
+                        <p>Fokus pada pemrograman web, basis data, dan pengembangan aplikasi. Aktif dalam kegiatan praktikum backend dan project berbasis tim.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">2024 - Now</div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Backend Development Path</h3>
+                        <h4>Self-Taught & Online Courses</h4>
+                        <p>Mendalami Laravel, Express.js, REST API architecture, dan JWT Authentication melalui platform seperti Udemy, YouTube, dan dokumentasi resmi.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">Ongoing</div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Continuous Learning</h3>
+                        <h4>Microservices & Deployment</h4>
+                        <p>Saat ini sedang mempelajari dasar-dasar Docker, deployment backend ke VPS (Linux), dan pengenalan arsitektur Microservices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO / PROJECTS -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading reveal">Latest <span>Projects</span></h2>
+            <div class="portfolio-container">
+                <!-- Project 1 -->
+                <div class="portfolio-box reveal">
+                   <img src="assets/img/project1.png" alt="Project Sistem Login">
+                    <div class="portfolio-layer">
+                        <h4>Sistem Login & Registrasi</h4>
+                        <p>Implementasi sistem login dan registrasi dengan validasi data dan enkripsi password.</p>
+                        <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+                            <span style="font-size: 1rem; padding: 0.3rem 0.8rem; background: rgba(85,230,178,0.1); color: var(--accent); border-radius: 99px;">PHP</span>
+                            <span style="font-size: 1rem; padding: 0.3rem 0.8rem; background: rgba(85,230,178,0.1); color: var(--accent); border-radius: 99px;">MySQL</span>
+                        </div>
+                        <a href="https://github.com/zamdv" target="_blank" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="portfolio-box reveal">
+                   <img src="assets/img/project2.png" alt="Crud Website">
+                    <div class="portfolio-layer">
+                        <h4>Crud Website</h4>
+                        <p>Implementasi sistem CRUD (Create, Read, Update, Delete) untuk website dengan menggunakan Node.js</p>
+                        <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+                            <span style="font-size: 1rem; padding: 0.3rem 0.8rem; background: rgba(85,230,178,0.1); color: var(--accent); border-radius: 99px;">Node.js</span>
+                            <span style="font-size: 1rem; padding: 0.3rem 0.8rem; background: rgba(85,230,178,0.1); color: var(--accent); border-radius: 99px;">JWT</span>
+                        </div>
+                        <a href="https://github.com/zamdv" target="_blank" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="portfolio-box reveal">
+                    <div class="portfolio-placeholder">
+                        <div class="project-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                    <div class="portfolio-layer">
+                        <h4>Rest API</h4>
+                        <p>Coming Soon</p>
+                        <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+                            <span style="font-size: 1rem; padding: 0.3rem 0.8rem; background: rgba(85,230,178,0.1); color: var(--accent); border-radius: 99px;">Laravel</span>
+                            <span style="font-size: 1rem; padding: 0.3rem 0.8rem; background: rgba(85,230,178,0.1); color: var(--accent); border-radius: 99px;">Eloquent</span>
+                        </div>
+                        <a href="https://github.com/zamdv" target="_blank" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+            <h2 class="heading reveal">Contact <span>Me</span></h2>
+            <div class="contact-container">
+                <div class="contact-info reveal">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Location</h4>
+                        <p>Jember, Jawa Timur, Indonesia</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>miftakhulnizamramadhan@email.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-brands fa-github"></i>
+                        <h4>GitHub</h4>
+                        <p>github.com/zamdv</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <h4>Freelance / Internship</h4>
+                        <p>Available for SMK PKL (Magang)</p>
+                    </div>
+                </div>
+                
+                <form class="contact-form reveal" id="contactForm">
+                    <div class="input-box">
+                        <input type="text" id="name" placeholder="Nama Lengkap" required>
+                        <input type="email" id="email" placeholder="Email Aktif" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" id="projectType" placeholder="Jenis Project (misal: API, Database)">
+                        <input type="text" id="subject" placeholder="Subjek Pesan">
+                    </div>
+                    <textarea id="message" rows="6" placeholder="Tulis pesan atau detail project Anda di sini..." required></textarea>
+                    <button type="submit" class="btn"><i class="fa-solid fa-paper-plane"></i> Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Nizam<span>.</span></h3>
+                <p>Siswa SMK yang sedang mendalami dunia backend, merancang API, dan mengelola database untuk aplikasi web modern.</p>
+                <div class="social-links">
+                    <a href="https://github.com/zamdv" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Backend Stack</h3>
+                <ul>
+                    <li><a href="#">PHP / Laravel</a></li>
+                    <li><a href="#">Node.js / Express</a></li>
+                    <li><a href="#">MySQL / PostgreSQL</a></li>
+                    <li><a href="#">REST API</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Let's Build</h3>
+                <p>Punya ide aplikasi atau butuh bantuan backend untuk project sekolah/kampus?</p>
+                <a href="#contact" class="btn">Start a Project</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Nizam. Crafted with <i class="fa-solid fa-code" style="color:var(--accent)"></i> and lots of coffee.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
